@@ -3407,3 +3407,30 @@ Tags: accommodation, adventure, booking, destination, modern blog, tour
  
  /*# sourceMappingURL=style.css.map */
  
+
+
+ .slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease;
+  cursor: grab;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+.booking {
+  margin-top: 4rem;
+}
