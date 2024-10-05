@@ -6,11 +6,7 @@
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/PFDinTextCompPro-Medium.ttf");
   font-family: pfd-medium;
 }
-  /* *, *:before, *:after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  } */
+
 
 .slider_body {
     height: 750px;

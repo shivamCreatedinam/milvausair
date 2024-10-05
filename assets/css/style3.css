@@ -4,6 +4,7 @@ html, body {
   padding: 0;
   overflow-x: hidden;
 }
+
 .places {
   padding: 0;
   margin: 2rem 0;
@@ -55,13 +56,11 @@ html, body {
   background-repeat: no-repeat;
   background-position: center 55%;
   background-size: 80px 80px;
-  /* line-height: 1000px; */
-  /* line-height: 100vh; */
+
   transition: background-size 200ms;
   position: absolute;
   color: white;
   height: 500px;
-  /* height: calc(95vh - 12px); */
   width: 80px;
   top: 0;
   left: 0;
