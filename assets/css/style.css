@@ -3815,11 +3815,38 @@ ul li {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   flex-direction: column;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  padding: 8rem 1rem;
+  padding-top: 20rem;
+  position: relative;
+}
+
+.card1 {
+  background-image: url(/assets/images/test/plane.jpg);
+  background-position: right;
+  background-size: cover;
+}
+.card2 {
+  background-image: url(/assets/images/test/three.jpg);
+  background-position: right;
+  background-size: cover;
+}
+.card3 {
+  background-image: url(/assets/images/test/reward.jpg);
+  background-position: right;
+  background-size: cover;
+}
+.card4 {
+  background-image: url(/assets/images/test/app.jpg);
+  background-position: right;
+background-size: cover;
+}
+.card5 {
+  /* background-image: url(/assets/images/test/); */
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .card p {
@@ -3961,7 +3988,7 @@ ul li {
   height: 100vh;
 }
 
-.box {
+.value_container .box {
   width: 250px;
   height: 550px;
   display: flex;
@@ -3977,7 +4004,7 @@ ul li {
   border-radius: 10px;
 }
 
-.active {
+.value_container .active {
   transform: scale(1.3);
   z-index: 10;
 
@@ -4003,7 +4030,7 @@ ul li {
   background-image: url(/assets/images/test/equality.jpg);
 }
 
-.box_inner {
+.box .box_inner {
   background: #000;
   width: 250px;
   height: 550px;
@@ -4180,11 +4207,11 @@ ul li {
 }
 
 .hra_logo img:hover {
-rotate: 360deg;
-transition: 1s ease-in-out;
+  rotate: 360deg;
+  transition: 1s ease-in-out;
 }
 .hra_header h1:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* business */
@@ -4247,7 +4274,8 @@ text-decoration: underline;
   background-color: #393e50;
 }
 
-.business_content .first, .business_content .last {
+.business_content .first,
+.business_content .last {
   height: 320px;
 }
 
