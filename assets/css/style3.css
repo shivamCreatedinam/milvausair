@@ -117,19 +117,19 @@ html, body {
 }
 
 .bg1 {
-  background-image: url(/assets/images/test/1.png);
+  background-image: url(assets/images/test/1.png);
 }
 .bg2 {
-  background-image: url(/assets/images/test/2.png);
+  background-image: url(assets/images/test/2.png);
 }
 .bg3 {
-  background-image: url(/assets/images/test/3.png);
+  background-image: url(assets/images/test/3.png);
 }
 .bg4 {
-  background-image: url(/assets/images/test/4.png);
+  background-image: url(assets/images/test/4.png);
 }
 .bg5 {
-  background-image: url(/assets/images/test/5.png);
+  background-image: url(assets/images/test/5.png);
 }
 
 .places .slide {
