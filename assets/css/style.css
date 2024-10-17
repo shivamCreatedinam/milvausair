@@ -3840,7 +3840,7 @@ ul li {
 .card4 {
   background-image: url(assets/images/test/app.jpg);
   background-position: right;
-background-size: cover;
+  background-size: cover;
 }
 .card5 {
   /* background-image: url(/assets/images/test/); */
@@ -4310,4 +4310,83 @@ background-size: cover;
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* coming soon */
+.timer_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.days_container {
+  border-bottom: 3px solid black;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.days {
+  font-size: 2rem;
+}
+
+.timer, .time_info  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+}
+
+.timer p {
+    text-align: center;
+    margin: 1rem 0;
+    font-weight: 700;
+}
+
+
+.hours_container {
+  border: 14px solid red;
+}
+
+.minutes_container {
+  border: 14px solid yellow;
+}
+
+.seconds_container {
+  border: 14px solid blue;
+}
+
+.hours_container,
+.minutes_container,
+.seconds_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.hours,
+.minutes,
+.seconds {
+  font-size: 2rem;
+}
+
+
+@media screen and (max-width: 550px) {
+  .timer, .time_info  {
+flex-direction: column;
+  }
+.timer_container h1 {
+  text-align: center;
+}
+
+
 }
