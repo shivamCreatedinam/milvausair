@@ -3823,27 +3823,27 @@ ul li {
 }
 
 .card1 {
-  background-image: url(assets/images/test/plane.jpg);
+  background-image: url(/assets/images/test/plane.jpg);
   background-position: right;
   background-size: cover;
 }
 .card2 {
-  background-image: url(assets/images/test/three.jpg);
+  background-image: url(/assets/images/test/three.jpg);
   background-position: right;
   background-size: cover;
 }
 .card3 {
-  background-image: url(assets/images/test/reward.jpg);
+  background-image: url(/assets/images/test/reward.jpg);
   background-position: right;
   background-size: cover;
 }
 .card4 {
-  background-image: url(assets/images/test/app.jpg);
+  background-image: url(/assets/images/test/app.jpg);
   background-position: right;
   background-size: cover;
 }
 .card5 {
-  /* background-image: url(/assets/images/test/); */
+  background-image: url(/assets/images/banner/hra1.png);
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
